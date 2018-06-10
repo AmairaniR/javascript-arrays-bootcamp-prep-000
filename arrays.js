@@ -26,3 +26,8 @@ function destructivelyAddElementToEndOfArray(fruits, condiments) {
   return fruits
 }
 
+var paper = ["construction", "line", "printer", "laminated"]
+
+function accessElementInArray() {
+  return paper[3]
+}
