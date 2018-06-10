@@ -25,3 +25,4 @@ function destructivelyAddElementToEndOfArray(fruits, condiments) {
   fruits.push("foo")
   return fruits
 }
+
