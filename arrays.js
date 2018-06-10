@@ -31,3 +31,8 @@ var paper = ["construction", "line", "printer", 3]
 function accessElementInArray() {
   return paper[3]
 }
+
+function destructivelyRemoveELementFromBeginningOfArray(array) {
+  paper.shift()
+  return paper 
+}
