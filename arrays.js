@@ -50,5 +50,5 @@ var table = [1, 2, 3]
 
 function destructivelyRemoveElementFromEndOfArray(table) {
   table.pop()
-  return pop
+  return table
 }
