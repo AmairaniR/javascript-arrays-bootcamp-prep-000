@@ -34,7 +34,7 @@ function accessElementInArray() {
 
 const days = ["Monday", "Tuesday", "Wednesday"]
 
-function destructivelyRemoveELementFromBeginningOfArray(days) {
+function destructivelyRemoveElementFromBeginningOfArray(days) {
   days.shift()
   return paper
 }
