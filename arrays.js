@@ -38,3 +38,9 @@ function destructivelyRemoveElementFromBeginningOfArray(days) {
   days.shift()
   return days
 }
+
+var night = [1, 2, 3]
+
+function removeElementFromBeginningOfArray() {
+  
+}
