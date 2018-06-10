@@ -32,7 +32,9 @@ function accessElementInArray() {
   return paper[3]
 }
 
-function destructivelyRemoveELementFromBeginningOfArray(paper) {
-  paper.shift()
-  return paper 
+const days = ["Monday", "Tuesday", "Wednesday"]
+
+function destructivelyRemoveELementFromBeginningOfArray(days) {
+  days.shift()
+  return paper
 }
