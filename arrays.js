@@ -5,12 +5,12 @@ chocolateBars = [...chocolateBars, "crunch"]
 var cities = ["Orlando", "Miami", "Chicago"];
 
 function addElementToBeginningOfArray(cities, states) {
-  cities = ["Albany", ...cities]
+  cities = ["foo", ...cities]
   return cities
 }
 
 function destructivelyAddElementToBeginningOfArray(cities, chips){
-  cities.unshift("Atlanta")
+  cities.unshift("foo")
   return cities
 }
 
