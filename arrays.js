@@ -32,7 +32,7 @@ function accessElementInArray() {
   return paper[3]
 }
 
-function destructivelyRemoveELementFromBeginningOfArray(array) {
+function destructivelyRemoveELementFromBeginningOfArray(paper) {
   paper.shift()
   return paper 
 }
