@@ -52,3 +52,9 @@ function destructivelyRemoveElementFromEndOfArray(table) {
   table.pop()
   return table
 }
+
+var chairs = [1, 2, 3]
+
+function removeElementFromEndOfArray() {
+  
+}
