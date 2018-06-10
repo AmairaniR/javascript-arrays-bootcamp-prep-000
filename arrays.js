@@ -57,4 +57,5 @@ var chairs = [1, 2, 3]
 
 function removeElementFromEndOfArray() {
   chairs = chairs.slice(0, chairs.length -1)
+  return chairs
 }
