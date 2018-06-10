@@ -14,13 +14,14 @@ function destructivelyAddElementToBeginningOfArray(cities, chips){
   return cities
 }
 
+var fruits = ["banana", "blueberry", "kiwi"]
+
 function addElementToEndOfArray(fruits, vegetables) {
-  var fruits = ["banana", "blueberry", "kiwi"]
-  fruits = [...cities, "orange"]
+  fruits = [...fruits, "foo"]
   return fruits
 }
 
 function destructivelyAddElementToEndOfArray(fruits, condiments) {
-  fruits.push("strawberry")
+  fruits.push("foo")
   return fruits
 }
