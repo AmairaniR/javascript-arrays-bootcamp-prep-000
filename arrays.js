@@ -42,5 +42,6 @@ function destructivelyRemoveElementFromBeginningOfArray(days) {
 var night = [1, 2, 3]
 
 function removeElementFromBeginningOfArray() {
-  
+  night.slice(0)
+  return night
 }
