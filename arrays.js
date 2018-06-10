@@ -45,3 +45,10 @@ function removeElementFromBeginningOfArray() {
   night = night.slice(1)
   return night
 }
+
+var table = [1, 2, 3]
+
+function destructivelyRemoveElementFromEndOfArray(table) {
+  table.pop()
+  return pop
+}
