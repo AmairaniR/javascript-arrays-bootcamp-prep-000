@@ -11,7 +11,6 @@ function addElementToBeginningOfArray(cities, states) {
 
 function destructivelyAddElementToBeginningOfArray(cities, chips){
   cities.unshift("Atlanta")
-  cities = ["Albany", ...cities]
   return cities
 }
 
