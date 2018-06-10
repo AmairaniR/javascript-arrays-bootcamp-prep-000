@@ -36,5 +36,5 @@ const days = ["Monday", "Tuesday", "Wednesday"]
 
 function destructivelyRemoveElementFromBeginningOfArray(days) {
   days.shift()
-  return paper
+  return days
 }
